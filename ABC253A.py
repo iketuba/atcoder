@@ -1,6 +1,6 @@
-int = list(map(int, input().split()))
-b = int[1]
-m = sorted(int)[1]
+num = list(map(int, input().split()))
+b = num[1]
+m = sorted(num)[1]
 if b == m:
     print('Yes')
 else:
